@@ -1,0 +1,15 @@
+{
+    "category": "plugins",
+    "display": "Make Element Visible",
+    "fields": {
+        "AAY": {
+            "caption": "Element ID",
+            "doc": "ID of element",
+            "editor": "DynamicValue",
+            "name": "id",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

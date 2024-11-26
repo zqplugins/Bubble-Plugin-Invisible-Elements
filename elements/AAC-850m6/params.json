@@ -1,0 +1,299 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "Invisible Element",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1518196128879x173840724397450700/check-box-empty.png",
+    "fields": {
+        "AAD": {
+            "caption": "Text",
+            "doc": "Text",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Number",
+            "doc": "Number",
+            "editor": "DynamicValue",
+            "name": "number",
+            "optional": true,
+            "rank": 1,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "Picture",
+            "doc": "Picture",
+            "editor": "DynamicValue",
+            "name": "picture",
+            "optional": true,
+            "rank": 2,
+            "value": "image"
+        },
+        "AAJ": {
+            "caption": "Address",
+            "doc": "Address",
+            "editor": "DynamicValue",
+            "name": "address",
+            "optional": true,
+            "rank": 3,
+            "value": "geographic_address"
+        },
+        "AAM": {
+            "caption": "Yes / No",
+            "doc": "Yes/No",
+            "editor": "DynamicValue",
+            "name": "yes_no",
+            "optional": true,
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAN": {
+            "caption": "Date",
+            "doc": "Date",
+            "editor": "DynamicValue",
+            "name": "date",
+            "optional": true,
+            "rank": 5,
+            "value": "date"
+        },
+        "AAP": {
+            "caption": "File",
+            "doc": "File",
+            "editor": "DynamicValue",
+            "name": "file",
+            "optional": true,
+            "rank": 6,
+            "value": "file"
+        },
+        "AAR": {
+            "caption": "Number range",
+            "doc": "Number range",
+            "editor": "DynamicValue",
+            "name": "number_range",
+            "optional": true,
+            "rank": 7,
+            "value": "number_range"
+        },
+        "AAT": {
+            "caption": "Date range",
+            "doc": "Date range",
+            "editor": "DynamicValue",
+            "name": "date_range",
+            "optional": true,
+            "rank": 8,
+            "value": "date_range"
+        },
+        "AAZ": {
+            "caption": "Lists ---------------------------------",
+            "editor": "Label",
+            "name": "lists",
+            "rank": 9
+        },
+        "AAa": {
+            "caption": "Text List",
+            "doc": "",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "long_text": false,
+            "name": "text_list",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Number List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "number_list",
+            "optional": true,
+            "rank": 11,
+            "value": "number"
+        },
+        "AAc": {
+            "caption": "Yes / No List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "yes_/_no_list",
+            "optional": true,
+            "rank": 14,
+            "value": "boolean"
+        },
+        "AAd": {
+            "caption": "Date List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "date_list",
+            "optional": true,
+            "rank": 15,
+            "value": "date"
+        },
+        "AAe": {
+            "caption": "File List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "file_list",
+            "optional": true,
+            "rank": 16,
+            "value": "file"
+        },
+        "AAf": {
+            "caption": "Picture List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "picture_list",
+            "optional": true,
+            "rank": 12,
+            "value": "image"
+        },
+        "AAg": {
+            "caption": "Address List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "address_list",
+            "optional": true,
+            "rank": 13,
+            "value": "geographic_address"
+        },
+        "AAh": {
+            "caption": "Number Range List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "number_range_list",
+            "optional": true,
+            "rank": 17,
+            "value": "number_range"
+        },
+        "AAi": {
+            "caption": "Date Range List",
+            "doc": "",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "date_range_list",
+            "optional": true,
+            "rank": 18,
+            "value": "date_range"
+        }
+    },
+    "icon": "ion-qr-scanner",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "Text",
+            "doc": "Text",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "text",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Number",
+            "doc": "Number",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "number",
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Picture",
+            "doc": "Picture",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "picture",
+            "value": "image"
+        },
+        "AAK": {
+            "caption": "Address",
+            "doc": "Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "address",
+            "value": "geographic_address"
+        },
+        "AAL": {
+            "caption": "Yes / No",
+            "doc": "Yes/No",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "yes_no",
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "Date",
+            "doc": "Date",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "date",
+            "value": "date"
+        },
+        "AAQ": {
+            "caption": "File",
+            "doc": "File",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "file",
+            "value": "file"
+        },
+        "AAS": {
+            "caption": "Number range",
+            "doc": "Number range",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "number_range",
+            "value": "number_range"
+        },
+        "AAU": {
+            "caption": "Date range",
+            "doc": "Date range",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "date_range",
+            "value": "date_range"
+        },
+        "AAj": {
+            "caption": "Text List",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "text_list",
+            "value": "text"
+        },
+        "AAk": {
+            "caption": "Number List",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "number_list",
+            "value": "number"
+        },
+        "AAl": {
+            "caption": "Picture List",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "picture_list",
+            "value": "image"
+        }
+    }
+}
